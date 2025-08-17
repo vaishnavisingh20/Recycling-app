@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gamified Recycling App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>♻️ Gamified Recycling App</h1>
+    <p id="message">Scan your waste item to recycle correctly!</p>
+    
+    <!-- Camera Input -->
+    <input type="file" id="cameraInput" accept="image/*" capture="environment" style="display:none;">
+    <button id="scanBtn">📸 Scan Item</button>
+    
+    <h2>⭐ Your Points: <span id="points">0</span></h2>
+    <h3>🏆 Level: <span id="level">1</span></h3>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
